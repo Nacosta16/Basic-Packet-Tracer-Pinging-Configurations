@@ -56,7 +56,7 @@ Router(config-router)# network 192.168.1.0 0.0.0.255 area 0
 
    - Test with Ping: Ensure all devices can communicate across different paths
 
-    - <h3> Bus/Legacy Topologie </h3>
+- <h3> Bus/Legacy Topology </h3>
 
    - Drag & Drop a Hub (instead of a switch)
 
