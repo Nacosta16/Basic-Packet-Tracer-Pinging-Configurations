@@ -32,3 +32,37 @@
     - Test Connectivity:
 Open the Command Prompt (CMD) on any PC and use the ping command to check connectivity with others.
 Example: ping 192.168.1.11
+
+- <h3> Mesh Topology </h3>
+
+    - Drag & Drop Multiple Routers (e.g., Router0, Router1, Router2)
+
+   - Add End Devices: Connect a PC or Server to each router using Switches
+
+   - Connect the Routers: Use Serial Cables (DCE to DTE) or Ethernet Cables for inter-router communication
+
+   - Assign IP Addresses to Routers: Go to Router CLI → Use the following commands to set up interfaces:
+bash
+Copy
+Edit
+Router(config)# interface GigabitEthernet0/0
+Router(config-if)# ip address 192.168.1.1 255.255.255.0
+Router(config-if)# no shutdown
+Repeat this for all routers with different subnets.
+
+   - Enable Routing (Use RIP, OSPF, or EIGRP): bash Copy Edit
+Router(config)# router ospf 1
+Router(config-router)# network 192.168.1.0 0.0.0.255 area 0
+
+   - Test with Ping: Ensure all devices can communicate across different paths
+
+    - <h3> Bus/Legacy Topologie </h3>
+
+   - Drag & Drop a Hub (instead of a switch)
+
+   - Connect Multiple PCs using Straight-Through Cables
+
+   - Assign IP Addresses (same as in Star Topology)
+
+   - Test with Ping
+
