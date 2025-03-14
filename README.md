@@ -1,6 +1,6 @@
 # Basic Packet Tracer Configs/Topologies
 
-<h2> In Cisco Packet Tracer, help desk technicians should be familiar with several network topologies to troubleshoot and assist users effectively. Here are three key topologies they should know </h2>
+<h2> Learning with Cisco Packet Tracer, help desk technicians have the ability to be familiar with several network topologies to troubleshoot and assist users effectively. Here are three key topologies they should know </h2>
   
 - <b> Star Topology </b>
 
