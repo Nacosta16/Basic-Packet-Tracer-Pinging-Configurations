@@ -21,13 +21,14 @@
 
  -  <h3> Star Topology </h3>
 
-    - Open Cisco Packet Tracer → Drag and drop a Switch onto the workspace.
+    - Open Cisco Packet Tracer and drop a Switch onto the workspace.
 
-    - Add End Devices, any PC will be fine
+    - Add End Devices, any 2 PC's will be fine
 
     - Connect Devices using a copper straight through cable to connect each PC to the switch (You can also select the auto icon below to automatically connect the correct cable)
 
-    - Configure IP Addresses: Click on each PC → Go to Desktop → Open IP Configuration. Assign unique IP addresses in the same subnet (e.g., 192.168.1.10, 192.168.1.11, etc.).
+    - Configure IP Addresses: Click on each PC, go to Desktop, pen IP Configuration. Assign unique IP addresses in the same subnet. For a example, PC 2 will have 192.168.1.10 abd PC 0 
+ will have 192.168.1.11. They are different IP's but still on the same subnet of 255.255.255.0
 
     - Test Connectivity:
 Open the Command Prompt (CMD) on any PC and use the ping command to check connectivity with others.
