@@ -19,15 +19,15 @@
  
 <H2> How to configure these topologies in packet tracer </H2>
 
- -  <h3> Star Topology </h3>
+   <h3> Star Topology </h3>
 
- Open Cisco Packet Tracer and drop a switch, located in the bottom left corner, onto the workspace.
+-  <b> Open Cisco Packet Tracer and drop a switch, located in the bottom left corner, onto the workspace </b>
 
 <img src="https://sigmawire.net/i/03/vz3NqG.png" height="35%" width="35%" alt="VirtualBox set up wizard" />
 
- Add End Devices, any 2 PC's will be fine
+   - Add End Devices, any 2 PC's will be fine </b>
 
-Connect Devices using a copper straight through cable to connect each PC to the switch (You can also select the auto icon below to automatically connect the correct cable)
+   - Connect Devices using a copper straight through cable to connect each PC to the switch (You can also select the auto icon below to automatically connect the correct cable)
 
 <img src="https://sigmawire.net/i/03/FpVB0T.png" height="35%" width="35%" alt="VirtualBox set up wizard" />
 
@@ -42,7 +42,7 @@ Connect Devices using a copper straight through cable to connect each PC to the 
 
    - Test Connectivity:
 
-Open the Command Prompt (CMD) on any PC and use the ping command to check connectivity with others to ensure the topology is connected properly
+  - Open the Command Prompt (CMD) on any PC and use the ping command to check connectivity with others to ensure the topology is connected properly
 
 <img src="https://sigmawire.net/i/03/kfRUzo.png" height="35%" width="35%" alt="VirtualBox set up wizard"/>
 
@@ -52,9 +52,9 @@ Open the Command Prompt (CMD) on any PC and use the ping command to check connec
 -  As you can see, when you ping the PC configured to your network, it goes through, otherwuse it will come back as "request timed out"
   
 
-- <h3> Mesh Topology </h3>
+ <h2> Mesh Topology </h2>
 
-    - Drag & Drop Multiple Routers (e.g., Router0, Router1, Router2)
+   - Drag & Drop Multiple Routers (e.g., Router0, Router1, Router2)
 
    - Add End Devices: Connect a PC or Server to each router using Switches
 
@@ -75,7 +75,7 @@ Router(config-router)# network 192.168.1.0 0.0.0.255 area 0
 
    - Test with Ping: Ensure all devices can communicate across different paths
 
-- <h3> Bus/Legacy Topology </h3>
+- <h2> Bus/Legacy Topology </h2>
 
    - Drag & Drop a Hub (instead of a switch)
 
