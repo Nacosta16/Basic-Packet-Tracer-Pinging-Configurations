@@ -54,26 +54,15 @@
 
  <h2> Mesh Topology </h2>
 
-   - Drag & Drop Multiple Routers (e.g., Router0, Router1, Router2)
+   - Drag & Drop Multiple Switches and End Users, 4 of each is fine for demonstation 
 
-   - Add End Devices: Connect a PC or Server to each router using Switches
+   - Add End Devices: Connect the end users to each switch and each switch to each other
 
-   - Connect the Routers: Use Serial Cables (DCE to DTE) or Ethernet Cables for inter-router communication
+   - Connect the Routers: Use cables straight through for same device connection or cross over for inter-router communication
 
-   - Assign IP Addresses to Routers: Go to Router CLI → Use the following commands to set up interfaces:
-bash
-Copy
-Edit
-Router(config)# interface GigabitEthernet0/0
-Router(config-if)# ip address 192.168.1.1 255.255.255.0
-Router(config-if)# no shutdown
-Repeat this for all routers with different subnets.
+   - Assign IP Addresses to PC's in the IP config section of the desktop tab
 
-   - Enable Routing (Use RIP, OSPF, or EIGRP): bash Copy Edit
-Router(config)# router ospf 1
-Router(config-router)# network 192.168.1.0 0.0.0.255 area 0
-
-   - Test with Ping: Ensure all devices can communicate across different paths
+   - Test with message to ensure all devices can communicate across different paths
 
 - <h2> Bus/Legacy Topology </h2>
 
