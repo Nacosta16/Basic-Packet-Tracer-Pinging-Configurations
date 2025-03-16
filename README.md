@@ -76,9 +76,14 @@
 
    - Drag & Drop a Hub (instead of a switch)
 
-   - Connect Multiple PCs using Straight-Through Cables
+   - Connect Multiple PCs to the Hub using Straight-Through Cables
+
+<img src="https://sigmawire.net/i/03/6aXP29.png" height="35%" width="35%" alt="VirtualBox set up wizard"/>
 
    - Assign IP Addresses (same as in Star Topology)
 
-   - Test with Ping
+<img src="https://sigmawire.net/i/03/pSPK9g.png" height="35%" width="35%" alt="VirtualBox set up wizard"/>
 
+   - Test with Ping using all the IP's you just assigned on the other PC's and you will see they are all connected on the network
+
+<img src="https://sigmawire.net/i/03/N84sA3.png" height="35%" width="35%" alt="VirtualBox set up wizard"/>
