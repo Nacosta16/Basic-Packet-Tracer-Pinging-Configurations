@@ -60,9 +60,17 @@
 
    - Connect the Routers: Use cables straight through for same device connection or cross over for inter-router communication
 
-   - Assign IP Addresses to PC's in the IP config section of the desktop tab
+<img src="https://sigmawire.net/i/03/LVyd0Q.png" height="35%" width="35%" alt="VirtualBox set up wizard"/>
 
-   - Test with message to ensure all devices can communicate across different paths
+   - Assign IP Addresses to PC's in the IP config section of the desktop tab. For example, PC0 would have 192.168.0.1, PC1 would have 192.168.0.2, and so on as long as they are different IPs in the same private network and subnet
+
+<img src="https://sigmawire.net/i/03/1gf3po.png" height="35%" width="35%" alt="VirtualBox set up wizard"/>
+
+<img src="https://sigmawire.net/i/03/qftOLV.png" height="35%" width="35%" alt="VirtualBox set up wizard"/>
+
+   - Test with message to ensure all devices can communicate across different paths. You drag and drop the following icon on the end users you want to send a message through, if it goes through without issue, the mesh topology has been successfully set up
+
+<img src="https://sigmawire.net/i/03/5Rpkos.png" height="35%" width="35%" alt="VirtualBox set up wizard"/>
 
 - <h2> Bus/Legacy Topology </h2>
 
